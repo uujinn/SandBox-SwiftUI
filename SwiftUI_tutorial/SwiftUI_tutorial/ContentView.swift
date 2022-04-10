@@ -15,6 +15,7 @@ struct ContentView: View {
     }
 }
 
+// 보여주는 용도
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
