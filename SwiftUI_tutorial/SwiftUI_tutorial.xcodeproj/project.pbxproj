@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A34B9A728048D3500500236 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34B9A628048D3500500236 /* MyVstackView.swift */; };
+		0A34B9A92804912C00500236 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A34B9A82804912C00500236 /* MyTextView.swift */; };
 		0A69C0872803458100EF30AA /* SwiftUI_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69C0862803458100EF30AA /* SwiftUI_tutorialApp.swift */; };
 		0A69C0892803458100EF30AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69C0882803458100EF30AA /* ContentView.swift */; };
 		0A69C08B2803458200EF30AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A69C08A2803458200EF30AA /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A34B9A628048D3500500236 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		0A34B9A82804912C00500236 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		0A69C0832803458100EF30AA /* SwiftUI_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A69C0862803458100EF30AA /* SwiftUI_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorialApp.swift; sourceTree = "<group>"; };
 		0A69C0882803458100EF30AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				0A69C0962803466E00EF30AA /* MySceneDelegate.swift */,
 				0A69C0942803460D00EF30AA /* MyAppDelegate.swift */,
 				0A69C0882803458100EF30AA /* ContentView.swift */,
+				0A34B9A82804912C00500236 /* MyTextView.swift */,
+				0A34B9A628048D3500500236 /* MyVstackView.swift */,
 				0A69C08A2803458200EF30AA /* Assets.xcassets */,
 				0A69C08C2803458200EF30AA /* Preview Content */,
 			);
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A69C0892803458100EF30AA /* ContentView.swift in Sources */,
+				0A34B9A92804912C00500236 /* MyTextView.swift in Sources */,
 				0A69C0952803460D00EF30AA /* MyAppDelegate.swift in Sources */,
 				0A69C0872803458100EF30AA /* SwiftUI_tutorialApp.swift in Sources */,
+				0A34B9A728048D3500500236 /* MyVstackView.swift in Sources */,
 				0A69C0972803466E00EF30AA /* MySceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
