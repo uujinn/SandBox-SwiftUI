@@ -19,9 +19,10 @@ struct ContentView: View {
         NavigationView{
             VStack{
                 HStack{
-                    MyVstackView()
-                    MyVstackView()
-                    MyVstackView()
+                    MyVstackView(isActivated: $isActivated)
+                    MyVstackView(isActivated: $isActivated)
+                    MyVstackView(isActivated: $isActivated)
+
                 } // Hstack
                 .padding(isActivated ? 50.0 : 10.0)
                 .background(isActivated ? Color.yellow: Color.black)
@@ -38,7 +39,7 @@ struct ContentView: View {
                 } // Hstack
                 
                 // 네비게이션 버튼(링크)
-                NavigationLink(destination: MyTextView()){
+                NavigationLink(destination: MyTextView(isActivated: $isActivated)){
                     Text("네비게이션")
                         .fontWeight(.heavy)
                         .font(.system(size: 40))
