@@ -35,7 +35,7 @@ struct MyCard: View{
             }
             
         }
-        .padding(10)
+        .padding(5)
         .background(bgColor)
         .cornerRadius(20)
         
