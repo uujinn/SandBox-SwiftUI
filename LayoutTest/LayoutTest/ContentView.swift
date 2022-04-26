@@ -32,10 +32,9 @@ struct ContentView: View {
                         
                         MyProjectCard()
                         MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
+                        MyCard(icon: "book.fill", title: "책 읽기", start: "12:30 AM", end: "1 AM", bgColor: Color.red)
+                        MyCard(icon: "leaf.fill", title: "블로그", start: "1:30 AM", end: "2:00 AM", bgColor: Color.green)
+                        MyCard(icon: "hands.sparkles", title: "씻기", start: "2:00 AM", end: "2:15 AM", bgColor: Color.blue)
                     }.padding()
                 }
             }

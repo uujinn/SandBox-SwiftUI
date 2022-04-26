@@ -13,6 +13,7 @@
 		0A0AAE2F281593290021E0C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0AAE2E281593290021E0C4 /* Preview Assets.xcassets */; };
 		0A0AAE362815934B0021E0C4 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE352815934B0021E0C4 /* MyProjectCard.swift */; };
 		0A0AAE38281597470021E0C4 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE37281597470021E0C4 /* MyBasicCard.swift */; };
+		0A0AAE3A2817D62E0021E0C4 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE392817D62E0021E0C4 /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0A0AAE2E281593290021E0C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A0AAE352815934B0021E0C4 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		0A0AAE37281597470021E0C4 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		0A0AAE392817D62E0021E0C4 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0A0AAE352815934B0021E0C4 /* MyProjectCard.swift */,
 				0A0AAE37281597470021E0C4 /* MyBasicCard.swift */,
 				0A0AAE2B281593290021E0C4 /* Assets.xcassets */,
+				0A0AAE392817D62E0021E0C4 /* MyCard.swift */,
 				0A0AAE2D281593290021E0C4 /* Preview Content */,
 			);
 			path = LayoutTest;
@@ -146,6 +149,7 @@
 				0A0AAE362815934B0021E0C4 /* MyProjectCard.swift in Sources */,
 				0A0AAE2A281593280021E0C4 /* ContentView.swift in Sources */,
 				0A0AAE38281597470021E0C4 /* MyBasicCard.swift in Sources */,
+				0A0AAE3A2817D62E0021E0C4 /* MyCard.swift in Sources */,
 				0A0AAE28281593280021E0C4 /* LayoutTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
