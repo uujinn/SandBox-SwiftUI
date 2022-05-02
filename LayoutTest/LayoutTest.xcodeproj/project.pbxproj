@@ -14,6 +14,7 @@
 		0A0AAE362815934B0021E0C4 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE352815934B0021E0C4 /* MyProjectCard.swift */; };
 		0A0AAE38281597470021E0C4 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE37281597470021E0C4 /* MyBasicCard.swift */; };
 		0A0AAE3A2817D62E0021E0C4 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AAE392817D62E0021E0C4 /* MyCard.swift */; };
+		0ABA5658281FB977003425A0 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABA5657281FB977003425A0 /* MyNavigationView.swift */; };
 		0AEF3DE5281813C600C18A39 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF3DE4281813C600C18A39 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		0A0AAE352815934B0021E0C4 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		0A0AAE37281597470021E0C4 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		0A0AAE392817D62E0021E0C4 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		0ABA5657281FB977003425A0 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		0AEF3DE4281813C600C18A39 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				0AEF3DE4281813C600C18A39 /* MyList.swift */,
 				0A0AAE37281597470021E0C4 /* MyBasicCard.swift */,
 				0A0AAE392817D62E0021E0C4 /* MyCard.swift */,
+				0ABA5657281FB977003425A0 /* MyNavigationView.swift */,
 				0A0AAE2B281593290021E0C4 /* Assets.xcassets */,
 				0A0AAE2D281593290021E0C4 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				0A0AAE3A2817D62E0021E0C4 /* MyCard.swift in Sources */,
 				0A0AAE28281593280021E0C4 /* LayoutTestApp.swift in Sources */,
 				0AEF3DE5281813C600C18A39 /* MyList.swift in Sources */,
+				0ABA5658281FB977003425A0 /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
