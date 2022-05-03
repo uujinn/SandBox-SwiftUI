@@ -24,8 +24,15 @@ struct ContentView: View {
                         }
                         
                         Spacer()
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        NavigationLink(destination: MyProfile(isNavigtaionBarHidden: self.$isNavigationBarHidden)){
+                            Image(systemName: "person.crop.circle.fill")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                                .navigationTitle("뒤로가기")
+                        }
+                            
+                        
+                        
                     }
                     .padding(20)
                     
