@@ -15,8 +15,9 @@ struct MyGeometryReaderVStack: View {
     
     @State var index: Index = .one
     
+    
     var body: some View{
-        GeometryReader{ geo in
+        GeometryReader{ proxy in
             VStack(spacing: 0){
                 Button(action:{
                     print("1번 클릭")
@@ -27,7 +28,7 @@ struct MyGeometryReaderVStack: View {
                     Text("1")
                         .font(.largeTitle)
                         .fontWeight(.black)
-                        .frame(width: geo.size.width / 4, height: geo.size.height / 3)
+                        .frame(width: proxy.size.width / 4, height: proxy.size.height / 3)
                         .padding(.horizontal, self.index == .one ? 50: 0)
                         .background(Color.red)
                         .foregroundColor(Color.white)
@@ -41,7 +42,7 @@ struct MyGeometryReaderVStack: View {
                     Text("2")
                         .font(.largeTitle)
                         .fontWeight(.black)
-                        .frame(width: geo.size.width / 4, height: geo.size.height / 3)
+                        .frame(width: proxy.size.width / 4, height: proxy.size.height / 3)
                         .padding(.horizontal, self.index == .two ? 50: 0)
                         .background(Color.blue)
                         .foregroundColor(Color.white)
@@ -55,15 +56,16 @@ struct MyGeometryReaderVStack: View {
                     Text("3")
                         .font(.largeTitle)
                         .fontWeight(.black)
-                        .frame(width: geo.size.width / 4, height: geo.size.height / 3)
+                        .frame(width: proxy.size.width / 4, height: proxy.size.height / 3)
                         .padding(.horizontal, self.index == .three ? 50: 0)
                         .background(Color.green)
                         .foregroundColor(Color.white)
                 }
 
             }
-            .background(Color.yellow)
-                .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
+            .position(CGPoint(x: proxy.frame(in: .local).midX, y: proxy.frame(in: .local).midY))
+//            .background(Color.yellow)
+//                .frame(width: proxy.size.width, height: proxy.size.height, alignment: .center)
             
         }.background(Color.yellow)
             .ignoresSafeArea()
