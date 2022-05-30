@@ -18,6 +18,8 @@
 		0A6A6C92284220BB00F73F0C /* MyGeometryReaderVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A6C91284220BB00F73F0C /* MyGeometryReaderVStack.swift */; };
 		0ABA5658281FB977003425A0 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABA5657281FB977003425A0 /* MyNavigationView.swift */; };
 		0ABA565A282156C3003425A0 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABA5659282156C3003425A0 /* MyProfile.swift */; };
+		0ABD3160284518410029C320 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD315F284518410029C320 /* MyTabView.swift */; };
+		0ABD3162284519490029C320 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD3161284519490029C320 /* MyView.swift */; };
 		0AEF3DE5281813C600C18A39 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF3DE4281813C600C18A39 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		0A6A6C91284220BB00F73F0C /* MyGeometryReaderVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVStack.swift; sourceTree = "<group>"; };
 		0ABA5657281FB977003425A0 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		0ABA5659282156C3003425A0 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		0ABD315F284518410029C320 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		0ABD3161284519490029C320 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		0AEF3DE4281813C600C18A39 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				0A0AAE27281593280021E0C4 /* LayoutTestApp.swift */,
+				0ABD315F284518410029C320 /* MyTabView.swift */,
+				0ABD3161284519490029C320 /* MyView.swift */,
 				0A0AAE29281593280021E0C4 /* ContentView.swift */,
 				0ABA5659282156C3003425A0 /* MyProfile.swift */,
 				0A6A6C91284220BB00F73F0C /* MyGeometryReaderVStack.swift */,
@@ -162,9 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6A6C92284220BB00F73F0C /* MyGeometryReaderVStack.swift in Sources */,
+				0ABD3160284518410029C320 /* MyTabView.swift in Sources */,
 				0A0AAE362815934B0021E0C4 /* MyProjectCard.swift in Sources */,
 				0A6A6C9028421CA500F73F0C /* MyGeomatryReader.swift in Sources */,
 				0ABA565A282156C3003425A0 /* MyProfile.swift in Sources */,
+				0ABD3162284519490029C320 /* MyView.swift in Sources */,
 				0A0AAE2A281593280021E0C4 /* ContentView.swift in Sources */,
 				0A0AAE38281597470021E0C4 /* MyBasicCard.swift in Sources */,
 				0A0AAE3A2817D62E0021E0C4 /* MyCard.swift in Sources */,
