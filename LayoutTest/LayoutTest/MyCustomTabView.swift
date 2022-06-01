@@ -89,7 +89,7 @@ struct MyCustomTabView: View{
                     }){
                         Image(systemName: "person.circle.fill")
                             .font(.system(size: 25))
-                            .scaleEffect(self.tabIndex == ∂.profile ? self.largerScale : 1.0 )
+                            .scaleEffect(self.tabIndex == .profile ? self.largerScale : 1.0 )
                             .foregroundColor(self.tabIndex == .profile ? Color.blue : Color.gray)
                             .frame(width: geometry.size.width / 3, height: 50)
                             .offset(y: self.tabIndex == .profile ? -10 : 0)
