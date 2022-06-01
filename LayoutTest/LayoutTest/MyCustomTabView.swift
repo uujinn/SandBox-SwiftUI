@@ -50,51 +50,56 @@ struct MyCustomTabView: View{
                 
                 Circle()
                     .frame(width: 90, height: 90)
-                    .offset(x: calcCircleBgPosition(geometry: geometry), y: 15)
+                    .offset(x: calcCircleBgPosition(geometry: geometry), y: UIDevice().hasNotch ? 20: 0)
                     .foregroundColor(.white)
-                
-                HStack(spacing: 0){
-                    Button(action: {
-                        print("홈 버튼 클릭")
-                        
-                        withAnimation{
-                            self.tabIndex = .home
-                        }
-                    }){
-                        Image(systemName: "house.fill")
-                            .font(.system(size: 25))
-                            .scaleEffect(self.tabIndex == .home ? self.largerScale : 1.0 )
-                            .foregroundColor(self.tabIndex == .home ? Color.blue : Color.gray)
-                            .frame(width: geometry.size.width / 3, height: 50)
-                            .offset(y: self.tabIndex == .home ? -10 : 0)
-                    }.background(Color.white)
-                    Button(action: {
-                        print("카트 버튼 클릭")
-                        withAnimation{
-                            self.tabIndex = .cart
-                        }
-                    }){
-                        Image(systemName: "cart.fill")
-                            .font(.system(size: 25))
-                            .scaleEffect(self.tabIndex == .cart ? self.largerScale : 1.0 )
-                            .foregroundColor(self.tabIndex == .cart ? Color.blue : Color.gray)
-                            .frame(width: geometry.size.width / 3, height: 50)
-                            .offset(y: self.tabIndex == .cart ? -10 : 0)
-                    }.background(Color.white)
-                    Button(action: {
-                        withAnimation{
-                            self.tabIndex = .profile
-                        }
-                        print("프로필 버튼 클릭")
-                    }){
-                        Image(systemName: "person.circle.fill")
-                            .font(.system(size: 25))
-                            .scaleEffect(self.tabIndex == .profile ? self.largerScale : 1.0 )
-                            .foregroundColor(self.tabIndex == .profile ? Color.blue : Color.gray)
-                            .frame(width: geometry.size.width / 3, height: 50)
-                            .offset(y: self.tabIndex == .profile ? -10 : 0)
-                    }.background(Color.white)
+                VStack(spacing: 0){
+                    HStack(spacing: 0){
+                        Button(action: {
+                            print("홈 버튼 클릭")
+                            
+                            withAnimation{
+                                self.tabIndex = .home
+                            }
+                        }){
+                            Image(systemName: "house.fill")
+                                .font(.system(size: 25))
+                                .scaleEffect(self.tabIndex == .home ? self.largerScale : 1.0 )
+                                .foregroundColor(self.tabIndex == .home ? Color.blue : Color.gray)
+                                .frame(width: geometry.size.width / 3, height: 50)
+                                .offset(y: self.tabIndex == .home ? -10 : 0)
+                        }.background(Color.white)
+                        Button(action: {
+                            print("카트 버튼 클릭")
+                            withAnimation{
+                                self.tabIndex = .cart
+                            }
+                        }){
+                            Image(systemName: "cart.fill")
+                                .font(.system(size: 25))
+                                .scaleEffect(self.tabIndex == .cart ? self.largerScale : 1.0 )
+                                .foregroundColor(self.tabIndex == .cart ? Color.blue : Color.gray)
+                                .frame(width: geometry.size.width / 3, height: 50)
+                                .offset(y: self.tabIndex == .cart ? -10 : 0)
+                        }.background(Color.white)
+                        Button(action: {
+                            withAnimation{
+                                self.tabIndex = .profile
+                            }
+                            print("프로필 버튼 클릭")
+                        }){
+                            Image(systemName: "person.circle.fill")
+                                .font(.system(size: 25))
+                                .scaleEffect(self.tabIndex == .profile ? self.largerScale : 1.0 )
+                                .foregroundColor(self.tabIndex == .profile ? Color.blue : Color.gray)
+                                .frame(width: geometry.size.width / 3, height: 50)
+                                .offset(y: self.tabIndex == .profile ? -10 : 0)
+                        }.background(Color.white)
+                    }
+                    Rectangle()
+                        .frame(width: geometry.size.width)
+                        .frame(height: UIDevice().hasNotch ? 0: 20)
                 }
+                .edgesIgnoringSafeArea(.all)
             }
             
         }.edgesIgnoringSafeArea(.all)
@@ -106,5 +111,13 @@ struct MyCustomTabView: View{
 struct MyCustomTabView_Previews: PreviewProvider {
     static var previews: some View{
         MyCustomTabView(tabIndex: .home)
+    }
+}
+
+// UIDevice 익스텐션으로 만들어줍니다.
+extension UIDevice {
+    var hasNotch: Bool {
+        let bottom = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets.bottom ?? 0
+        return bottom > 0
     }
 }
