@@ -11,6 +11,7 @@
 		0A858CE128564E2900907019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A858CE028564E2900907019 /* ContentView.swift */; };
 		0A858CE328564E2B00907019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A858CE228564E2B00907019 /* Assets.xcassets */; };
 		0A858CE628564E2B00907019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A858CE528564E2B00907019 /* Preview Assets.xcassets */; };
+		0A858CED2857070B00907019 /* MyFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A858CEC2857070B00907019 /* MyFilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0A858CE028564E2900907019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A858CE228564E2B00907019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A858CE528564E2B00907019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A858CEC2857070B00907019 /* MyFilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0A858CDE28564E2900907019 /* pickerTestApp.swift */,
 				0A858CE028564E2900907019 /* ContentView.swift */,
+				0A858CEC2857070B00907019 /* MyFilteredList.swift */,
 				0A858CE228564E2B00907019 /* Assets.xcassets */,
 				0A858CE428564E2B00907019 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A858CED2857070B00907019 /* MyFilteredList.swift in Sources */,
 				0A858CE128564E2900907019 /* ContentView.swift in Sources */,
 				0A858CDF28564E2900907019 /* pickerTestApp.swift in Sources */,
 			);
