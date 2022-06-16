@@ -11,6 +11,7 @@
 		0A2B551D285A44B9006F816C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B551C285A44B9006F816C /* ContentView.swift */; };
 		0A2B551F285A44B9006F816C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B551E285A44B9006F816C /* Assets.xcassets */; };
 		0A2B5522285A44B9006F816C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B5521285A44B9006F816C /* Preview Assets.xcassets */; };
+		0A2B5529285B7A4A006F816C /* SegmentLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B5528285B7A4A006F816C /* SegmentLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0A2B551C285A44B9006F816C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A2B551E285A44B9006F816C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2B5521285A44B9006F816C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A2B5528285B7A4A006F816C /* SegmentLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0A2B551A285A44B9006F816C /* lazyVGridTestApp.swift */,
 				0A2B551C285A44B9006F816C /* ContentView.swift */,
+				0A2B5528285B7A4A006F816C /* SegmentLayoutView.swift */,
 				0A2B551E285A44B9006F816C /* Assets.xcassets */,
 				0A2B5520285A44B9006F816C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2B5529285B7A4A006F816C /* SegmentLayoutView.swift in Sources */,
 				0A2B551D285A44B9006F816C /* ContentView.swift in Sources */,
 				0A2B551B285A44B9006F816C /* lazyVGridTestApp.swift in Sources */,
 			);
