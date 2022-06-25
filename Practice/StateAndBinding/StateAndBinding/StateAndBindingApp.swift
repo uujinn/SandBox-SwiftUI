@@ -11,7 +11,7 @@ import SwiftUI
 struct StateAndBindingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView(appTitle: "터벅터벅").environmentObject(MyViewModel())
         }
     }
 }
