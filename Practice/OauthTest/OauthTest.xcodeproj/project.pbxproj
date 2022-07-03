@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2887F92871F588000A72F2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0A2887F82871F588000A72F2 /* Alamofire */; };
+		0A2887FE2871F981000A72F2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2887FD2871F981000A72F2 /* APIClient.swift */; };
+		0A2888002871F9F7000A72F2 /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */; };
+		0A2888022871FBCF000A72F2 /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888012871FBCF000A72F2 /* APILogger.swift */; };
+		0A2888042871FCED000A72F2 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888032871FCED000A72F2 /* AuthRouter.swift */; };
 		0AAB372E2867770400A47B24 /* OauthTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB372D2867770400A47B24 /* OauthTestApp.swift */; };
 		0AAB37302867770400A47B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB372F2867770400A47B24 /* ContentView.swift */; };
 		0AAB37322867770500A47B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB37312867770500A47B24 /* Assets.xcassets */; };
@@ -21,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2887FD2871F981000A72F2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInterceptor.swift; sourceTree = "<group>"; };
+		0A2888012871FBCF000A72F2 /* APILogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
+		0A2888032871FCED000A72F2 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		0AAB372A2867770400A47B24 /* OauthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OauthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB372D2867770400A47B24 /* OauthTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthTestApp.swift; sourceTree = "<group>"; };
 		0AAB372F2867770400A47B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,12 +50,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAB373D2867772C00A47B24 /* Alamofire in Frameworks */,
+				0A2887F92871F588000A72F2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2887FA2871F955000A72F2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0A2887FC2871F96E000A72F2 /* Interceptor */,
+				0A2887FB2871F962000A72F2 /* Router */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0A2887FB2871F962000A72F2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0A2888032871FCED000A72F2 /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0A2887FC2871F96E000A72F2 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
 		0AAB37212867770400A47B24 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +103,9 @@
 			children = (
 				0AAB37622868BD7B00A47B24 /* Info.plist */,
 				0AAB372D2867770400A47B24 /* OauthTestApp.swift */,
+				0A2887FA2871F955000A72F2 /* API */,
+				0A2887FD2871F981000A72F2 /* APIClient.swift */,
+				0A2888012871FBCF000A72F2 /* APILogger.swift */,
 				0AAB375F2868BAFD00A47B24 /* Model */,
 				0AAB37582868AC2800A47B24 /* View */,
 				0AAB37312867770500A47B24 /* Assets.xcassets */,
@@ -123,6 +161,7 @@
 			name = OauthTest;
 			packageProductDependencies = (
 				0AAB373C2867772C00A47B24 /* Alamofire */,
+				0A2887F82871F588000A72F2 /* Alamofire */,
 			);
 			productName = OauthTest;
 			productReference = 0AAB372A2867770400A47B24 /* OauthTest.app */;
@@ -154,6 +193,7 @@
 			mainGroup = 0AAB37212867770400A47B24;
 			packageReferences = (
 				0AAB373B2867772C00A47B24 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0A2887F72871F588000A72F2 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 0AAB372B2867770400A47B24 /* Products */;
 			projectDirPath = "";
@@ -184,11 +224,15 @@
 				0AAB37642868C0EB00A47B24 /* OtherUserProfileView.swift in Sources */,
 				0AAB37612868BB0A00A47B24 /* UserData.swift in Sources */,
 				0AAB375A2868AC3800A47B24 /* LoginView.swift in Sources */,
+				0A2888022871FBCF000A72F2 /* APILogger.swift in Sources */,
 				0AAB37662868C19E00A47B24 /* UserListView.swift in Sources */,
 				0AAB375C2868B9E100A47B24 /* RegisterView.swift in Sources */,
 				0AAB375E2868BAD900A47B24 /* ProfileView.swift in Sources */,
+				0A2888002871F9F7000A72F2 /* BaseInterceptor.swift in Sources */,
 				0AAB37302867770400A47B24 /* ContentView.swift in Sources */,
 				0AAB372E2867770400A47B24 /* OauthTestApp.swift in Sources */,
+				0A2888042871FCED000A72F2 /* AuthRouter.swift in Sources */,
+				0A2887FE2871F981000A72F2 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +439,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0A2887F72871F588000A72F2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		0AAB373B2867772C00A47B24 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -406,6 +458,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0A2887F82871F588000A72F2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A2887F72871F588000A72F2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		0AAB373C2867772C00A47B24 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0AAB373B2867772C00A47B24 /* XCRemoteSwiftPackageReference "Alamofire" */;
