@@ -11,7 +11,7 @@ import SwiftUI
 struct OauthTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView().environmentObject(UserViewModel())
         }
     }
 }

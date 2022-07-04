@@ -12,6 +12,10 @@
 		0A2888002871F9F7000A72F2 /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */; };
 		0A2888022871FBCF000A72F2 /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888012871FBCF000A72F2 /* APILogger.swift */; };
 		0A2888042871FCED000A72F2 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888032871FCED000A72F2 /* AuthRouter.swift */; };
+		0A2888072872B8A4000A72F2 /* AuthAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888062872B8A4000A72F2 /* AuthAPIService.swift */; };
+		0A2888092872B968000A72F2 /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2888082872B968000A72F2 /* TokenData.swift */; };
+		0A28880B2872BA23000A72F2 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28880A2872BA23000A72F2 /* AuthResponse.swift */; };
+		0A28880E2872BB49000A72F2 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28880D2872BB49000A72F2 /* UserViewModel.swift */; };
 		0AAB372E2867770400A47B24 /* OauthTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB372D2867770400A47B24 /* OauthTestApp.swift */; };
 		0AAB37302867770400A47B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB372F2867770400A47B24 /* ContentView.swift */; };
 		0AAB37322867770500A47B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAB37312867770500A47B24 /* Assets.xcassets */; };
@@ -30,6 +34,10 @@
 		0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInterceptor.swift; sourceTree = "<group>"; };
 		0A2888012871FBCF000A72F2 /* APILogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
 		0A2888032871FCED000A72F2 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		0A2888062872B8A4000A72F2 /* AuthAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIService.swift; sourceTree = "<group>"; };
+		0A2888082872B968000A72F2 /* TokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenData.swift; sourceTree = "<group>"; };
+		0A28880A2872BA23000A72F2 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		0A28880D2872BB49000A72F2 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		0AAB372A2867770400A47B24 /* OauthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OauthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB372D2867770400A47B24 /* OauthTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthTestApp.swift; sourceTree = "<group>"; };
 		0AAB372F2867770400A47B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +68,7 @@
 		0A2887FA2871F955000A72F2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				0A2888052872B893000A72F2 /* Service */,
 				0A2887FC2871F96E000A72F2 /* Interceptor */,
 				0A2887FB2871F962000A72F2 /* Router */,
 			);
@@ -80,6 +89,22 @@
 				0A2887FF2871F9F7000A72F2 /* BaseInterceptor.swift */,
 			);
 			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		0A2888052872B893000A72F2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0A2888062872B8A4000A72F2 /* AuthAPIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0A28880C2872BB40000A72F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A28880D2872BB49000A72F2 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		0AAB37212867770400A47B24 = {
@@ -108,6 +133,7 @@
 				0A2888012871FBCF000A72F2 /* APILogger.swift */,
 				0AAB375F2868BAFD00A47B24 /* Model */,
 				0AAB37582868AC2800A47B24 /* View */,
+				0A28880C2872BB40000A72F2 /* ViewModel */,
 				0AAB37312867770500A47B24 /* Assets.xcassets */,
 				0AAB37332867770500A47B24 /* Preview Content */,
 			);
@@ -139,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				0AAB37602868BB0A00A47B24 /* UserData.swift */,
+				0A2888082872B968000A72F2 /* TokenData.swift */,
+				0A28880A2872BA23000A72F2 /* AuthResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2888072872B8A4000A72F2 /* AuthAPIService.swift in Sources */,
 				0AAB37642868C0EB00A47B24 /* OtherUserProfileView.swift in Sources */,
 				0AAB37612868BB0A00A47B24 /* UserData.swift in Sources */,
 				0AAB375A2868AC3800A47B24 /* LoginView.swift in Sources */,
@@ -229,9 +258,12 @@
 				0AAB375C2868B9E100A47B24 /* RegisterView.swift in Sources */,
 				0AAB375E2868BAD900A47B24 /* ProfileView.swift in Sources */,
 				0A2888002871F9F7000A72F2 /* BaseInterceptor.swift in Sources */,
+				0A28880E2872BB49000A72F2 /* UserViewModel.swift in Sources */,
 				0AAB37302867770400A47B24 /* ContentView.swift in Sources */,
 				0AAB372E2867770400A47B24 /* OauthTestApp.swift in Sources */,
+				0A2888092872B968000A72F2 /* TokenData.swift in Sources */,
 				0A2888042871FCED000A72F2 /* AuthRouter.swift in Sources */,
+				0A28880B2872BA23000A72F2 /* AuthResponse.swift in Sources */,
 				0A2887FE2871F981000A72F2 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

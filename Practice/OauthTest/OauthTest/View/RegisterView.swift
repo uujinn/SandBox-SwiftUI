@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct RegisterView: View {
+  
+  @EnvironmentObject var userViewModel: UserViewModel
+  
   @State var nameInput: String = ""
   @State var emailInput: String = ""
   @State var passwordInput: String = ""
@@ -38,6 +41,7 @@ struct RegisterView: View {
         Section{
           Button {
             print("회원가입 버튼 클릭")
+            userViewModel.register(name: nameInput, email: emailInput, password: passwordInput)
           } label: {
             Text("회원가입 하기")
           }
