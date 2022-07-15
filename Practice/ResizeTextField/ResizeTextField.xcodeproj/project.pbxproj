@@ -7,79 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A6033AE287B4446001AD6A6 /* TextEditorApproachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6033AD287B4446001AD6A6 /* TextEditorApproachView.swift */; };
-		0A6033B6287D3223001AD6A6 /* ExpandingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6033B5287D3223001AD6A6 /* ExpandingTextView.swift */; };
-		0A6033B8287D323F001AD6A6 /* WrappedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6033B7287D323F001AD6A6 /* WrappedTextView.swift */; };
-		0A915DE5287AB7830055AD6D /* BulbTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A915DE4287AB7830055AD6D /* BulbTestApp.swift */; };
-		0A915DE7287AB7830055AD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A915DE6287AB7830055AD6D /* ContentView.swift */; };
-		0A915DE9287AB7840055AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A915DE8287AB7840055AD6D /* Assets.xcassets */; };
-		0A915DEC287AB7840055AD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A915DEB287AB7840055AD6D /* Preview Assets.xcassets */; };
-		0A915DF3287AB7950055AD6D /* LightBulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A915DF2287AB7950055AD6D /* LightBulbView.swift */; };
-		0A915DF5287AB7A10055AD6D /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A915DF4287AB7A10055AD6D /* ControlView.swift */; };
-		0AC13DF2287F166300FDD489 /* MbSwiftUIFirstResponder in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC13DF1287F166300FDD489 /* MbSwiftUIFirstResponder */; };
+		0AF2B5032881947A00C6A55E /* ResizeTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2B5022881947A00C6A55E /* ResizeTextFieldApp.swift */; };
+		0AF2B5052881947A00C6A55E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2B5042881947A00C6A55E /* ContentView.swift */; };
+		0AF2B5072881947A00C6A55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2B5062881947A00C6A55E /* Assets.xcassets */; };
+		0AF2B50A2881947A00C6A55E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2B5092881947A00C6A55E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A6033AD287B4446001AD6A6 /* TextEditorApproachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorApproachView.swift; sourceTree = "<group>"; };
-		0A6033B5287D3223001AD6A6 /* ExpandingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTextView.swift; sourceTree = "<group>"; };
-		0A6033B7287D323F001AD6A6 /* WrappedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedTextView.swift; sourceTree = "<group>"; };
-		0A915DE1287AB7830055AD6D /* BulbTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulbTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A915DE4287AB7830055AD6D /* BulbTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbTestApp.swift; sourceTree = "<group>"; };
-		0A915DE6287AB7830055AD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0A915DE8287AB7840055AD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A915DEB287AB7840055AD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0A915DF2287AB7950055AD6D /* LightBulbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbView.swift; sourceTree = "<group>"; };
-		0A915DF4287AB7A10055AD6D /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		0AF2B4FF2881947A00C6A55E /* ResizeTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF2B5022881947A00C6A55E /* ResizeTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeTextFieldApp.swift; sourceTree = "<group>"; };
+		0AF2B5042881947A00C6A55E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AF2B5062881947A00C6A55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF2B5092881947A00C6A55E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A915DDE287AB7830055AD6D /* Frameworks */ = {
+		0AF2B4FC2881947A00C6A55E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC13DF2287F166300FDD489 /* MbSwiftUIFirstResponder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A915DD8287AB7830055AD6D = {
+		0AF2B4F62881947A00C6A55E = {
 			isa = PBXGroup;
 			children = (
-				0A915DE3287AB7830055AD6D /* BulbTest */,
-				0A915DE2287AB7830055AD6D /* Products */,
+				0AF2B5012881947A00C6A55E /* ResizeTextField */,
+				0AF2B5002881947A00C6A55E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0A915DE2287AB7830055AD6D /* Products */ = {
+		0AF2B5002881947A00C6A55E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A915DE1287AB7830055AD6D /* BulbTest.app */,
+				0AF2B4FF2881947A00C6A55E /* ResizeTextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A915DE3287AB7830055AD6D /* BulbTest */ = {
+		0AF2B5012881947A00C6A55E /* ResizeTextField */ = {
 			isa = PBXGroup;
 			children = (
-				0A915DE4287AB7830055AD6D /* BulbTestApp.swift */,
-				0A915DE6287AB7830055AD6D /* ContentView.swift */,
-				0A6033AD287B4446001AD6A6 /* TextEditorApproachView.swift */,
-				0A6033B5287D3223001AD6A6 /* ExpandingTextView.swift */,
-				0A6033B7287D323F001AD6A6 /* WrappedTextView.swift */,
-				0A915DF2287AB7950055AD6D /* LightBulbView.swift */,
-				0A915DF4287AB7A10055AD6D /* ControlView.swift */,
-				0A915DE8287AB7840055AD6D /* Assets.xcassets */,
-				0A915DEA287AB7840055AD6D /* Preview Content */,
+				0AF2B5022881947A00C6A55E /* ResizeTextFieldApp.swift */,
+				0AF2B5042881947A00C6A55E /* ContentView.swift */,
+				0AF2B5062881947A00C6A55E /* Assets.xcassets */,
+				0AF2B5082881947A00C6A55E /* Preview Content */,
 			);
-			path = BulbTest;
+			path = ResizeTextField;
 			sourceTree = "<group>";
 		};
-		0A915DEA287AB7840055AD6D /* Preview Content */ = {
+		0AF2B5082881947A00C6A55E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0A915DEB287AB7840055AD6D /* Preview Assets.xcassets */,
+				0AF2B5092881947A00C6A55E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,42 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A915DE0287AB7830055AD6D /* BulbTest */ = {
+		0AF2B4FE2881947A00C6A55E /* ResizeTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A915DEF287AB7840055AD6D /* Build configuration list for PBXNativeTarget "BulbTest" */;
+			buildConfigurationList = 0AF2B50D2881947A00C6A55E /* Build configuration list for PBXNativeTarget "ResizeTextField" */;
 			buildPhases = (
-				0A915DDD287AB7830055AD6D /* Sources */,
-				0A915DDE287AB7830055AD6D /* Frameworks */,
-				0A915DDF287AB7830055AD6D /* Resources */,
+				0AF2B4FB2881947A00C6A55E /* Sources */,
+				0AF2B4FC2881947A00C6A55E /* Frameworks */,
+				0AF2B4FD2881947A00C6A55E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BulbTest;
-			packageProductDependencies = (
-				0AC13DF1287F166300FDD489 /* MbSwiftUIFirstResponder */,
-			);
-			productName = BulbTest;
-			productReference = 0A915DE1287AB7830055AD6D /* BulbTest.app */;
+			name = ResizeTextField;
+			productName = ResizeTextField;
+			productReference = 0AF2B4FF2881947A00C6A55E /* ResizeTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A915DD9287AB7830055AD6D /* Project object */ = {
+		0AF2B4F72881947A00C6A55E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					0A915DE0287AB7830055AD6D = {
+					0AF2B4FE2881947A00C6A55E = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 0A915DDC287AB7830055AD6D /* Build configuration list for PBXProject "BulbTest" */;
+			buildConfigurationList = 0AF2B4FA2881947A00C6A55E /* Build configuration list for PBXProject "ResizeTextField" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,50 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0A915DD8287AB7830055AD6D;
-			packageReferences = (
-				0AC13DF0287F166300FDD489 /* XCRemoteSwiftPackageReference "MbSwiftUIFirstResponder" */,
-			);
-			productRefGroup = 0A915DE2287AB7830055AD6D /* Products */;
+			mainGroup = 0AF2B4F62881947A00C6A55E;
+			productRefGroup = 0AF2B5002881947A00C6A55E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A915DE0287AB7830055AD6D /* BulbTest */,
+				0AF2B4FE2881947A00C6A55E /* ResizeTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A915DDF287AB7830055AD6D /* Resources */ = {
+		0AF2B4FD2881947A00C6A55E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A915DEC287AB7840055AD6D /* Preview Assets.xcassets in Resources */,
-				0A915DE9287AB7840055AD6D /* Assets.xcassets in Resources */,
+				0AF2B50A2881947A00C6A55E /* Preview Assets.xcassets in Resources */,
+				0AF2B5072881947A00C6A55E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A915DDD287AB7830055AD6D /* Sources */ = {
+		0AF2B4FB2881947A00C6A55E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A6033B6287D3223001AD6A6 /* ExpandingTextView.swift in Sources */,
-				0A6033B8287D323F001AD6A6 /* WrappedTextView.swift in Sources */,
-				0A6033AE287B4446001AD6A6 /* TextEditorApproachView.swift in Sources */,
-				0A915DF5287AB7A10055AD6D /* ControlView.swift in Sources */,
-				0A915DE7287AB7830055AD6D /* ContentView.swift in Sources */,
-				0A915DE5287AB7830055AD6D /* BulbTestApp.swift in Sources */,
-				0A915DF3287AB7950055AD6D /* LightBulbView.swift in Sources */,
+				0AF2B5052881947A00C6A55E /* ContentView.swift in Sources */,
+				0AF2B5032881947A00C6A55E /* ResizeTextFieldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A915DED287AB7840055AD6D /* Debug */ = {
+		0AF2B50B2881947A00C6A55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -233,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		0A915DEE287AB7840055AD6D /* Release */ = {
+		0AF2B50C2881947A00C6A55E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,14 +259,14 @@
 			};
 			name = Release;
 		};
-		0A915DF0287AB7840055AD6D /* Debug */ = {
+		0AF2B50E2881947A00C6A55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BulbTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ResizeTextField/Preview Content\"";
 				DEVELOPMENT_TEAM = B4G53F63TN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -303,13 +275,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yj.BulbTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yj.ResizeTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		0A915DF1287AB7840055AD6D /* Release */ = {
+		0AF2B50F2881947A00C6A55E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BulbTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ResizeTextField/Preview Content\"";
 				DEVELOPMENT_TEAM = B4G53F63TN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -333,13 +304,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yj.BulbTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yj.ResizeTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,44 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A915DDC287AB7830055AD6D /* Build configuration list for PBXProject "BulbTest" */ = {
+		0AF2B4FA2881947A00C6A55E /* Build configuration list for PBXProject "ResizeTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A915DED287AB7840055AD6D /* Debug */,
-				0A915DEE287AB7840055AD6D /* Release */,
+				0AF2B50B2881947A00C6A55E /* Debug */,
+				0AF2B50C2881947A00C6A55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A915DEF287AB7840055AD6D /* Build configuration list for PBXNativeTarget "BulbTest" */ = {
+		0AF2B50D2881947A00C6A55E /* Build configuration list for PBXNativeTarget "ResizeTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A915DF0287AB7840055AD6D /* Debug */,
-				0A915DF1287AB7840055AD6D /* Release */,
+				0AF2B50E2881947A00C6A55E /* Debug */,
+				0AF2B50F2881947A00C6A55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		0AC13DF0287F166300FDD489 /* XCRemoteSwiftPackageReference "MbSwiftUIFirstResponder" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Mobilinked/MbSwiftUIFirstResponder";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		0AC13DF1287F166300FDD489 /* MbSwiftUIFirstResponder */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0AC13DF0287F166300FDD489 /* XCRemoteSwiftPackageReference "MbSwiftUIFirstResponder" */;
-			productName = MbSwiftUIFirstResponder;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 0A915DD9287AB7830055AD6D /* Project object */;
+	rootObject = 0AF2B4F72881947A00C6A55E /* Project object */;
 }

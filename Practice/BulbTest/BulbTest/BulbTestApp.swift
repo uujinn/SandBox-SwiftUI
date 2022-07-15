@@ -11,7 +11,7 @@ import SwiftUI
 struct BulbTestApp: App {
     var body: some Scene {
         WindowGroup {
-          LightBulbView()
+          TextEditorApproachView()
         }
     }
 }
