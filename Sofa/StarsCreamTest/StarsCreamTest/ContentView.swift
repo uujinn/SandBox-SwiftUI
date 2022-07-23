@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   
-  let socket = websocket()
+  @StateObject var socket = websocket()
   
   @State var text = ""
   @State var receivedText = ""
@@ -17,7 +17,7 @@ struct ContentView: View {
   
   var body: some View {
     VStack{
-      Text("\(receivedText)")
+      Text("\(socket.receivedData)")
       
       TextField("Enter", text: $text)
         .padding()

@@ -7,11 +7,14 @@
 
 import Foundation
 import Starscream
+import Combine
 
-class websocket {
+class websocket: ObservableObject {
   var webSocket: WebSocket?
-  var receivedData: String = ""
-
+  @Published var receivedData: String = ""
+  
+  private var cancellables = Set<AnyCancellable>()
+  
   func connect() {
     guard let url = URL(string: "ws://localhost:1337/") else {
       print("Error: can not create URL")
@@ -57,6 +60,8 @@ extension websocket: WebSocketDelegate {
          let messageAuthor = messageData["author"] as? String,
          let messageText = messageData["text"] as? String {
         print(messageText)
+        receivedData = messageText
+        
 
         
       }
